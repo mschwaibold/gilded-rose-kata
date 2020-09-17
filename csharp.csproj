@@ -63,8 +63,14 @@
   <ItemGroup>
     <Compile Include="GildedRose.cs" />
     <Compile Include="Item.cs" />
+    <Compile Include="Name.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tests\GildedRoseTestAgedBrie.cs" />
+    <Compile Include="Tests\GildedRoseTestBackstagePasses.cs" />
+    <Compile Include="Tests\GildedRoseTestConjuredItem.cs" />
+    <Compile Include="Tests\GildedRoseTestStandardItem.cs" />
+    <Compile Include="Tests\GildedRoseTestSulfuras.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
