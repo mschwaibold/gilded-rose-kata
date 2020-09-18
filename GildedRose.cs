@@ -25,7 +25,7 @@ namespace csharp
         {
             var updateStrategy = _updateItemStrategyLocator.GetStrategy(item);
 
-            updateStrategy.ApplyTo(item);            
+            updateStrategy.ApplyTo(item);
         }
     }
 }
