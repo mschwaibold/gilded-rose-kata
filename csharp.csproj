@@ -72,6 +72,14 @@
     <Compile Include="Tests\GildedRoseTestConjuredItem.cs" />
     <Compile Include="Tests\GildedRoseTestStandardItem.cs" />
     <Compile Include="Tests\GildedRoseTestSulfuras.cs" />
+    <Compile Include="UpdateItemStrategies\BaseUpdateItemStrategy.cs" />
+    <Compile Include="UpdateItemStrategies\IUpdateItemStrategy.cs" />
+    <Compile Include="UpdateItemStrategies\UpdateAgedBrieStrategy.cs" />
+    <Compile Include="UpdateItemStrategies\UpdateBackstagePassesStrategy.cs" />
+    <Compile Include="UpdateItemStrategies\UpdateConjuredItemStrategy.cs" />
+    <Compile Include="UpdateItemStrategies\UpdateStandardItemStrategy.cs" />
+    <Compile Include="UpdateItemStrategies\UpdateSulfurasStrategy.cs" />
+    <Compile Include="UpdateItemStrategyLocator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
